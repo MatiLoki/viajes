@@ -5,3 +5,22 @@ body{
     border: 0;
     background-color: black;
 }
+p{
+    color: white;
+}
+.card-text{    
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#destacados{
+    background-color: aqua;
+}
+.cards{
+    justify-content: center;
+    background-color: black;
+}
+
+section .cards{
+    background-color: black;
+    justify-content: center;
+}
