@@ -24,3 +24,9 @@ section .cards{
     background-color: black;
     justify-content: center;
 }
+form{
+    
+    border: 50px;
+    padding: 50px;
+    margin: 50px;
+}

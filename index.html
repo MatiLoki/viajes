@@ -27,8 +27,8 @@
 
 <body class="bg-black">
 
-    <nav class="navbar navbar-expand-lg bg-black">
-        <div class="container-fluid bg-black">
+    <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+        <div class="container-fluid ">
             <a class="navbar-brand text-white" href="">
                 <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24"
                     class="d-inline-block align-text-top">Viajes Chile
@@ -61,7 +61,7 @@
     </header class="container-fluid bg-black">
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active navbar-expand-lg">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="alpaca">
             </div>
             <div class="carousel-item">
@@ -101,30 +101,32 @@
                 </div>
                 <div class="col-sm-3 mb-3 pd-5 mb-sm-0">
                     <div class="card">
-                        <div class="card-body bg-black">                            
-                            <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+                        <div class="card-body bg-black">
+                            <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Vel
                                 voluptatem voluptate ad error cumque rem officiis, voluptatum non ut, voluptas fugit
                                 architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis?
                             </p>
-                           <div class="card container justify-content-center">
-                             <i class="fa-solid fa-mountain fa-lg"></i>
-                           <div>
+                            <div class="card container justify-content-center">
+                                <i class="fa-solid fa-mountain fa-lg"></i>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 mb-3 pd-5 mb-sm-0">
+                            <div class="card">
+                                <div class="card-body bg-black">
+                                </div class="card container justify-content-center">
+                                <i class="fa-solid fa-route fa-lg"></i>
+                            </div>
+                            <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Vel
+                                voluptatem voluptate ad error cumque rem officiis, voluptatum non ut, voluptas fugit
+                                architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis?
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 mb-3 pd-5 mb-sm-0">
-                    <div class="card">
-                        <div class="card-body bg-black">
-                            </div class="card container justify-content-center">
-                                <i class="fa-solid fa-route fa-lg"></i>
-                            </div>
-                            <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
-                                voluptatem voluptate ad error cumque rem officiis, voluptatum non ut, voluptas fugit
-                                architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis?
-                            </p>
-                        </div>
-                    </div>
-                </div>                
             </div>
         </section>
 
@@ -166,16 +168,43 @@
                 </div>
             </div>
             <div>
-
         </section>
+        <form class="Formulario container text-white">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">                
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputAsunto1" class="form-label">Asunto</label>
+                <input type="asunto" class="form-control" id="InputAsunto">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputMensaje1" class="form-label">Mensaje</label>
+                <textarea type="text" class="form-control" id="InputMensaje"></textarea>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
 
-        <section>
-
-        </section>
-
-        <footer>
-
-        </footer>
+        <footer class="container-fluid bg-info pt-4 px-md-5">
+            <div class="row text-white pt-4 pb-2 px-md-5">
+                <div class="col-6 text-start ps-2 md-5">
+                    <p class="footer-text">VIAJES CHILE</p>
+                </div>
+                <div class="col-6 text-end mt-2 pe-2 md-5">
+                    <a href="https://www.github.com">
+                        <i class="fa-brands fa-square-github fa-2xl text-white"></i>
+                    </a>
+                    <a href="https://www.linkedin.com">
+                        <i class="fa-brands fa-linkedin fa-2xl ps-1 text-white"></i>
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-square-twitter fa-2xl ps-1 text-white"></i>
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <i class="fa-brands fa-square-facebook fa-2xl ps-1 text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>  
 
 </body>
 
