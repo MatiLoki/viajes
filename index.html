@@ -28,10 +28,10 @@
 <body class="bg-black">
 
     <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
-        <div class="container-fluid ">
+        <div class="container-fluid">
             <a class="navbar-brand text-white" href="">
                 <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24"
-                    class="d-inline-block align-text-top">Viajes Chile
+                    class="d-inline-block align-text-top pl-5">Viajes Chile
             </a>
             <!-- Botón de alternancia para pantallas pequeñas -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#inicio"> Inicio</a>
+                        <a class="nav-link active text-white" href="#inicio"> Inicio</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link text-white" href="#quienes">Quienes Somos</a>
@@ -57,8 +57,7 @@
             </div>
         </div>
     </nav>
-
-    </header class="container-fluid bg-black">
+    </header class="container-fluid bg-black" id="inicio">
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active navbar-expand-lg">
@@ -85,56 +84,58 @@
 
         <section class="cards container text-white justify-content-center bg-black" id="quienes">
             <h1 class="text-center text-white ">¿Quiénes Somos?</h1>
-            <div class="row bg-black ">
-                <div class="col-sm-3 mb-3 pd-5 mb-sm-0">
+            <div class="row bg-black d-block-flex">
+                <div class="col-sm-3 d-block-flex mb-3 pd-5 mb-sm-0">
                     <div class="card">
-                        <div class="card-body bg-black">
+                        <div class="card-body bg-info">
                             <div class="card container justify-content-center">
                                 <i class="fa-solid fa-plane fa-lg"></i>
                             </div>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+                            <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
                                 voluptatem voluptate ad error cumque rem officiis, voluptatum non ut, voluptas fugit
                                 architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis?
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 mb-3 pd-5 mb-sm-0">
+                <div class="col-sm-3 d-block-flex mb-3 pd-5 mb-sm-0">
                     <div class="card">
-                        <div class="card-body bg-black">
+                        <div class="card-body bg-info">
                             <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                 Vel
                                 voluptatem voluptate ad error cumque rem officiis, voluptatum non ut, voluptas fugit
-                                architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis?
+                                architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis? 
                             </p>
                             <div class="card container justify-content-center">
                                 <i class="fa-solid fa-mountain fa-lg"></i>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 mb-3 pd-5 mb-sm-0">
-                            <div class="card">
-                                <div class="card-body bg-black">
-                                </div class="card container justify-content-center">
-                                <i class="fa-solid fa-route fa-lg"></i>
-                            </div>
-                            <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Vel
-                                voluptatem voluptate ad error cumque rem officiis, voluptatum non ut, voluptas fugit
-                                architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis?
-                            </p>
+                            <div>                                
                         </div>
                     </div>
-                </div>
+                <div>   
+                        
+                        <div class="card-body bg-info mb-3 pd-5 pl-5">
+                            <div class="card-text ">
+                                <div class="bg-info">
+                                    </div class="card justify-content-center">
+                                        <i class="fa-solid fa-route fa-lg"></i>
+                                    </div>
+                                    <p class="card-text text-white bg-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Vel
+                                     voluptatem voluptate ad error cumque rem officiis, voluptatum non ut, voluptas fugit
+                                     architecto quisquam nostrum excepturi pariatur! Quidem harum exercitationem officiis?
+                                    </p>
+                                </div>
+                            </div>
+                        <div>   
+                
             </div>
         </section>
 
-        <section class="container text-white">
+        <section class="container text-white pb-2 pt-4">
             <h1 class="text-center text-white"> DESTACADOS </h1>
             <div class="row  justify-content-center pd-5 bg-black" id="destacados">
                 <div class="col-4" style="width: 14rem;">
-                    <div class="card-text">
+                    <div class="card-text bg-info">
                         <img src="assets/img/card1.jpg" alt="" width="316px" height="180px">
                         <p class="card-text mb-2 pd-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
                             odio quia
@@ -143,7 +144,7 @@
                     </div>
                 </div>
                 <div class="col-4" style="width: 14rem;">
-                    <div class="card-text">
+                    <div class="card-text bg-info">
                         <img src="assets/img/card2.jpg" alt="" width="316px" height="180px">
                         <p class="card-text mb-2 pd-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                             molestiae, minima similique autem necessitatibus voluptatem facere delectus iusto ipsa odit
@@ -151,7 +152,7 @@
                     </div>
                 </div>
                 <div class="col-4" style="width: 14rem;">
-                    <div class="card-text">
+                    <div class="card-text bg-info">
                         <img src="assets/img/card3.jpg" alt="" width="316px" height="180px">
                         <p class="card-text mb-2 pd-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                             molestiae, minima similique autem necessitatibus voluptatem facere delectus iusto ipsa odit
@@ -159,7 +160,7 @@
                     </div>
                 </div>
                 <div class="col-4" style="width: 14rem;">
-                    <div class="card-text ">
+                    <div class="card-text bg-info">
                         <img src="assets/img/card4.jpg" alt="" width="316px" height="180px">
                         <p class="card-text mb-2 pd-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                             molestiae, minima similique autem necessitatibus voluptatem facere delectus iusto ipsa odit
@@ -170,7 +171,8 @@
             <div>
         </section>
         <form class="Formulario container text-white">
-            <div class="mb-3">
+            <h1 class="text-center text-white justify-content-center">CONTACTO</h1>
+            <div class="mb-3" id="contacto">
                 <label for="exampleInputEmail1" class="form-label">Nombre</label>
                 <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">                
             </div>
@@ -181,11 +183,11 @@
             <div class="mb-3">
                 <label for="exampleInputMensaje1" class="form-label">Mensaje</label>
                 <textarea type="text" class="form-control" id="InputMensaje"></textarea>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="A ESPERA DE REVISION">Enviar</button>
         </form>
 
-        <footer class="container-fluid bg-info pt-4 px-md-5">
-            <div class="row text-white pt-4 pb-2 px-md-5">
+        <footer class="container-fluid mt-4 bg-info pb-2 pt-2 px-md-5">
+            <div class="row bg-info bg-cover pt-4 pb-2 px-md-5">
                 <div class="col-6 text-start ps-2 md-5">
                     <p class="footer-text">VIAJES CHILE</p>
                 </div>
@@ -205,7 +207,9 @@
                 </div>
             </div>
         </footer>  
+        <script src="assets/js/script.js"></script>
 
+        
 </body>
 
-</html>
+</html> 

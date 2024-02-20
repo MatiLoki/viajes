@@ -1,5 +1,9 @@
-
-body{
+* {
+    font-family: "Oswald", sans-serif;
+}
+body {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,25 +12,42 @@ body{
 p{
     color: white;
 }
-.card-text{    
+.navbar-brand {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.navbar {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+.card-text {    
     background-repeat: no-repeat;
     background-position-x: center;
 }
-#destacados{
+#destacados {
     background-color: aqua;
 }
-.cards{
+.cards {
     justify-content: center;
-    background-color: black;
+    
 }
 
-section .cards{
-    background-color: black;
+section .cards {
+    
     justify-content: center;
 }
-form{
+form {
     
     border: 50px;
     padding: 50px;
     margin: 50px;
+}
+footer {
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aqua;    
 }
